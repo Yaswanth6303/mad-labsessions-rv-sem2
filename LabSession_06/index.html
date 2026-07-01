@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Stock Display</title>
+
+    <!-- Manifest File -->
+    <link rel="manifest" href="manifest.json" />
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+
+      h2 {
+        margin-bottom: 20px;
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 90%;
+      }
+
+      th,
+      td {
+        padding: 12px;
+        border: 1px solid black;
+        text-align: left;
+      }
+
+      th {
+        background-color: #f2f2f2;
+      }
+    </style>
+  </head>
+
+  <body>
+    <center>
+      <h2>Stock Market Data Display</h2>
+
+      <div id="stock">Loading stock data...</div>
+    </center>
+
+    <!-- External JS File -->
+    <script src="app.js"></script>
+  </body>
+</html>
